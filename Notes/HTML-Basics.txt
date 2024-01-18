@@ -1,0 +1,12 @@
+Hyper Text Markup Language-HTML5- W3C
+
+
+Tags and elements(open tag+content+close tag)
+Headings and paragraph
+anchor
+image
+lists
+formatting Tags
+table
+block vs inline
+semantic tags
