@@ -1,0 +1,12 @@
+Git is an application to track version of your software/code. you need to install it. 
+
+after installing check it by " git -v " command in command prompt.
+(while installing select vscode as default code editor)
+
+Github is a website to store/deploy/share code
+
+Git stages:
+working area: git init
+staging area: git add files(.)
+local repository:
+cloud repository:
