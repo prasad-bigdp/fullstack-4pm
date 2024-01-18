@@ -16,3 +16,5 @@ staging area: git add files(.)
 local repository: git commit -m "message"
  it will create a local saved copy
 cloud repository:
+setup: git remote add  origin https://github.com/prasad-bigdp/fullstack-4pm.git
+push: git push -u origin main
