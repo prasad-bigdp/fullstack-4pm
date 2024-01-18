@@ -8,5 +8,10 @@ Github is a website to store/deploy/share code
 Git stages:
 working area: git init
 staging area: git add files(.)
-local repository:
+  Errors: git config --global user.email "ur email"
+          git config --global user.name "ur username"
+
+          In VScode,left bottom , u have to signup
+
+local repository: git commit -m "message"
 cloud repository:
