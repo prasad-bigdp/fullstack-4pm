@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!-- <form action="server.js">
+         <fieldset>
+            <legend>My-form</legend>
+            <div>
+                <input type="text" placeholder="Enter your name" name="na">
+            </div><br>
+            <div>
+                <input type="email" placeholder="Enter your email" name="email">
+            </div><br>
+            <div>
+                <input type="radio" name="gen" value="male" id="m">
+                <label for="m">Male</label>
+                <input type="radio" name="gen" value="female" id="f">
+                <label for="f">FeMale</label>
+            
+            </div>
+            <div>
+                <p>Select prefered languages:</p>
+                <input type="checkbox" name="check" id="c1">
+                <label for="c1">HTML</label>
+                <input type="checkbox" name="check" id="c2">
+                <label for="c2">CSS</label>
+                <input type="checkbox" name="check" id="c3">
+                <label for="c3">JS</label>
+                <input type="checkbox" name="check" id="c4">
+                <label for="c4">Bootstrap</label>
+            
+            </div><br>
+            <div>
+                <label for="flowers">Choose your favourite Flower:</label>
+                <select name="flower" id="flowers">
+                    <option value="rose">Rose</option>
+                    <option value="jasmine">Jasmine</option>
+                    <option value="lotus">Lotus</option>
+                    <option value="lilly">Lilly</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="fr">Please Select your favourite Fruit:</label>
+                <input type="text" name="fruit" id="fr" list="mydata">
+                <datalist id="mydata">
+                    <option value="apple"></option>
+                    <option value="banana"></option>
+                    <option value="orange"></option>
+                    <option value="mango"></option>
+                </datalist>
+            </div><br>
+            <div>
+                <label for="vc">Choose your vehicle:</label>
+                <select name="vehicle" id="vc">
+                    <optgroup label="Cars">
+            
+                        <option value="bmw">BMW</option>
+                        <option value="lamborgini">Lamborgini</option>
+                        <option value="maruti">Maruti</option>
+                        <option value="tatasumo">tata sumo</option>
+                        <option value="ferrari">ferari</option>
+                    </optgroup>
+                    <optgroup label="bikes">
+                        <option value="duke">Duke</option>
+                        <option value="pulsur">pulsur</option>
+            
+                        <option value="hayabuza">Hayabuza</option>
+            
+                        <option value="rf">royal enfield</option>
+                    </optgroup>
+                    <optgroup label="others">
+                        <option value="bullokart">bullokart</option>
+                    </optgroup>
+            
+                </select>
+            </div><br>
+         </fieldset>
+            <button>submit</button>
+        </form> -->
+        <form action="server.js">
+            <fieldset>
+                <legend>Signup</legend>
+                <div>
+                   FirstName:* <input type="text" placeholder="firstname" name="fn" required> Lastame:
+                    <input type="text" placeholder="lastname"
+                    name="ln" value="batt" disabled>
+                    
+                </div><br>
+                <div>
+                    <input type="email" placeholder="enter email address" name="em">
+                </div><br>
+                <div>
+                  <input type="password" placeholder="enter password" name="pwd"
+                   pattern="/[A-Za-z]{4}[0-9]{4}/"
+                  minlength="8" maxlength="12">
+                  <input type="number" name="age" id="" min="20" max="25">
+                 
+                </div><br>
+                <div>
+                    <button>Submit</button>
+                    <input type="reset" value="Reset">
+                </div>
+                <p>Note: All field with * are required</p>
+            </fieldset>
+        </form>
+    </body>
+
+</html>
