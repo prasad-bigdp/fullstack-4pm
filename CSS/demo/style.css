@@ -1,0 +1,18 @@
+ /*Internal styling*/
+ 
+        p/*tagname*/
+        {
+            background-color: aquamarine;
+            color: blue;
+        }
+        .para/*class name*/
+        {
+           background-color: yellow;
+           color: green;
+        }
+        #p12/*id*/
+        {
+            background-color: bisque;
+            color: azure;
+        }
+        
