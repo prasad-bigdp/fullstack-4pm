@@ -1,0 +1,239 @@
+Universal Selector (*):
+
+Selects all elements on the page.
+ 
+  * {
+    margin: 0;
+    padding: 0;
+}
+Type Selector (or Element Selector):
+
+Selects all elements of a specific type.
+ 
+  p {
+    color: blue;
+}
+Class Selector (.):
+
+Selects all elements with a specific class.
+ 
+  .highlight {
+    background-color: yellow;
+}
+ID Selector (#):
+
+Selects a specific element with a given ID.
+ 
+  #header {
+    font-size: 24px;
+}
+Descendant Selector ( ):
+
+Selects all elements that are descendants of a specified element.
+ 
+  article p {
+    font-style: italic;
+}
+Child Selector (>):
+
+Selects all direct children of a specified element.
+ 
+  ul > li {
+    list-style-type: square;
+}
+Adjacent Sibling Selector (+):
+
+Selects an element that is directly preceded by a specified element.
+ 
+  h2 + p {
+    font-weight: bold;
+}
+General Sibling Selector (~):
+
+Selects all siblings that share the same parent as the specified element.
+ 
+  h2 ~ p {
+    margin-top: 10px;
+}
+Attribute Selector ([]):
+
+Selects elements based on their attributes.
+ 
+  input[type="text"] {
+    border: 1px solid #ccc;
+}
+Pseudo-class Selector (:):
+
+Selects elements based on their state or position.
+ 
+  a:hover {
+    color: red;
+}
+Pseudo-element Selector (::):
+
+Selects a specific part of an element.
+ 
+  p::first-line {
+    font-weight: bold;
+}
+
+Pseudo Classes:
+:hover:
+
+Selects and styles an element when the user hovers over it.
+ 
+  a:hover {
+    color: red;
+}
+:active:
+
+Selects and styles an element that is being activated (clicked) by the user.
+ 
+  button:active {
+    background-color: #008080;
+}
+:focus:
+
+Selects and styles an element that has keyboard focus.
+ 
+  input:focus {
+    border: 2px solid blue;
+}
+:first-child:
+
+Selects the first child of a parent element.
+ 
+  li:first-child {
+    font-weight: bold;
+}
+:last-child:
+
+Selects the last child of a parent element.
+ 
+  div p:last-child {
+    margin-bottom: 0;
+}
+:nth-child():
+
+Selects elements based on their position in the list of child elements.
+ 
+  li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+:nth-of-type():
+
+Selects elements based on their position among siblings of the same type.
+ 
+  p:nth-of-type(2n) {
+    color: green;
+}
+:not():
+
+Selects elements that do not match a specified selector.
+ 
+  input:not([type="text"]) {
+    opacity: 0.5;
+}
+:checked:
+
+Selects a radio button or checkbox that is checked.
+ 
+  input[type="checkbox"]:checked {
+    border-color: #009688;
+}
+:disabled:
+
+Selects and styles disabled form elements.
+ 
+  input:disabled {
+    background-color: #ddd;
+}
+:required and :optional:
+
+Selects and styles required or optional form elements.
+ 
+  input:required {
+    border: 1px solid red;
+}
+
+input:optional {
+    border: 1px solid #ccc;
+}
+These are just a few examples of the many pseudo-classes available in  . They allow you to apply styles based on various conditions, states, or positions of elements on a webpage
+
+Pseudo Elements:
+::before:
+
+Inserts content before the content of the selected element.
+ 
+  p::before {
+    content: ">> ";
+    color: #008080;
+}
+::after:
+
+Inserts content after the content of the selected element.
+ 
+  div::after {
+    content: "End of Section";
+    font-style: italic;
+}
+::first-line:
+
+Selects and styles the first line of text within an element.
+ 
+  h1::first-line {
+    font-weight: bold;
+}
+::first-letter:
+
+Selects and styles the first letter of text within an element.
+ 
+  p::first-letter {
+    font-size: 150%;
+    color: #cc0000;
+}
+::selection:
+
+Selects and styles the portion of text that is selected by the user.
+ 
+  ::selection {
+    background-color: #3399ff;
+    color: #fff;
+}
+::placeholder:
+
+Selects and styles the placeholder text in an input field.
+ 
+  input::placeholder {
+    color: #999;
+}
+::marker:
+
+Selects and styles the marker box of a list item.
+ 
+  li::marker {
+    color: #008000;
+    font-weight: bold;
+}
+::before and ::after for generating content:
+
+Using content property to generate content before or after an element.
+ 
+  blockquote::before {
+    content: "\201C"; /* Unicode for left double quotation mark */
+    color: #888;
+}
+
+blockquote::after {
+    content: "\201D"; /* Unicode for right double quotation mark */
+    color: #888;
+}
+::backdrop:
+
+Applies styles to the backdrop of a modal or dialog.
+ 
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+These are examples of some of the commonly used   pseudo-elements. Pseudo-elements allow you to style specific parts or generate content within an element without adding extra HTML markup.

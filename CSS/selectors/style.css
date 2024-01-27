@@ -1,0 +1,89 @@
+/*Basic Selectors*/
+p{
+    color:red;
+}/* selecting by Tag name, it applies to all elements with that tag name*/
+.para
+{
+    background-color: aqua;
+}/*selecting by class name ,it applies to all ements with that class name*/
+#name,.para{
+    border: 2px solid black;
+    
+}/* selecting by id , it applies to element with that id*/
+
+/*More selectors */
+/*descendant*/
+#name p
+{
+   font-size:24px;
+}
+/*child*/
+#name>p{
+     text-align: center;
+}
+div~p{
+    font-style: italic;
+}
+/*pseudo elements and pseudo classes*/
+
+/*pseudo elements*/
+.para::first-line
+{
+    color: greenyellow;
+}
+.para::first-letter
+{
+    font-size: 48px;
+}
+.para::after
+{
+    content:'"'
+}
+.para::before
+{
+content:'"'
+}
+/* pseudo classes */
+#mydiv a:active{
+    background-color: red;
+    color:green
+}
+#mydiv a:link{
+    background-color: green;
+}
+a:visited
+{
+    background-color: yellow;
+}
+input[type="text"]
+{
+    background-color: green;
+}
+#main{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.child
+{
+    height:50px;
+    width: 50px;
+    border: 1px solid red;
+}
+#pp
+{
+    background-color: blue;
+}
+ /* .child:nth-child(3)
+{
+    background-color: red;
+}  */
+/* .child:nth-last-child(odd)
+{
+    background-color: green;
+} */
+ .child:nth-of-type(3)
+{
+    background-color: green;
+} 
+
