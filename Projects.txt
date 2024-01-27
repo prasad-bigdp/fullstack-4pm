@@ -5,3 +5,5 @@ HTML5:
 3.Tribute Page(ur own celebraty)
 4. Time table
 5. Resume
+6.forms
+7.basic css
