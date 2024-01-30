@@ -5,30 +5,46 @@
     <style>
         /* This is an internal CSS block for demonstration purposes. */
 
-        /* Box Model Concept */
-        .box {
-            width: 200px;
-            height: 100px;
-            border: 2px solid #333;
+        .box
+        {
+            box-sizing: border-box;
+            /* background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+            background-position: center;
+            background-size: cover; */
+            height: 20vh;
+            width: 50vw;
+            font-size: 25px;
+            border:5px solid black;
             margin: 20px;
-            padding: 10px;
-            background-color: lightgray;
+            
+            
         }
-
-        /* Controlling Element Dimensions */
-        .box2 {
-            width: 300px; /* Set the width */
-            height: 150px; /* Set the height */
-            background-color: lightblue;
+        .box p{
+            font-size: 1.5rem;
         }
-
-        /* Margin and Padding Shortcuts */
-        .box3 {
-            width: 200px;
+        #display{
+            border: 1px solid black;
+        }
+        #display .child{
+         display: inline-block;
+        }
+        #float .child{
+            float:right
+        }
+        .child{
             height: 100px;
-            margin: 20px 10px; /* Top and bottom margins, left and right margins */
-            padding: 10px 5px; /* Top and bottom padding, left and right padding */
-            background-color: lightgreen;
+            width: 20%;
+           padding: 40px;
+           box-sizing: border-box;
+           background-color:aqua ;
+           border: 1px solid black;
+        }
+        #float>img{
+            float: right;
+        }
+        #float>p
+        {
+            clear: both;
         }
     </style>
 </head>
@@ -45,20 +61,21 @@
         <!-- This box has dimensions defined for width, height, border, margin, padding, and background color. -->
     </div>
 
-    <!-- Controlling Element Dimensions -->
-    <h2>Controlling Element Dimensions</h2>
-
-    <div class="box2">
-        <p>This is a larger box with controlled dimensions.</p>
-        <!-- The dimensions of this box are set using the "width" and "height" properties. -->
+    <div id="display">
+        <div class="child">hi</div>
+        <div class="child">hi</div>
+        <div class="child">hi</div>
+        <div class="child">hi</div>
+      </div>
+    <div id="float">
+        <div class="child">hi</div>
+        <div class="child">hi</div>
+        <div class="child">hi</div>
+        <div class="child">hi</div>
     </div>
-
-    <!-- Margin and Padding Shortcuts -->
-    <h2>Margin and Padding Shortcuts</h2>
-
-    <div class="box3">
-        <p>This box uses margin and padding shortcuts.</p>
-        <!-- Margin and padding are set using shorthand properties (e.g., margin: 20px 10px;). -->
-    </div>
+      <div id="float">
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="hgfhggf" height="100" width="100">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatibus, consequuntur vitae, minima praesentium explicabo eum culpa pariatur nostrum repellat veniam in deserunt, aliquam at dolorum quia quos ratione dolore suscipit ab labore dicta! Minus consequatur fuga deleniti qui est dicta magnam? Expedita laborum fuga alias sequi exercitationem perspiciatis sunt veritatis sint quod iste molestiae suscipit nemo obcaecati voluptates dignissimos natus, porro vel maxime distinctio facere? Labore optio dolore aliquid natus quas consequatur amet dolorum, accusantium, iure, cum pariatur? Architecto voluptatem suscipit voluptas esse quia assumenda omnis. Maiores vero illo minus facilis et mollitia beatae, inventore at laboriosam eius aperiam ratione! Id, recusandae. Repudiandae id nulla quae expedita doloribus incidunt odio laborum debitis? Debitis, aperiam sapiente. Ratione, quis corporis quasi repudiandae voluptatem facere soluta quia, excepturi eligendi dolor quam magnam vitae asperiores ullam ipsum laboriosam quibusdam nisi numquam quo, at sequi similique. Corrupti iste molestias vero quos tenetur adipisci quidem veniam quae! Impedit est laboriosam ad vitae iure cum fugit eligendi quibusdam maxime, explicabo nobis recusandae modi possimus soluta. Rem modi corrupti asperiores vitae. Quia dolores blanditiis qui iste. Odio eligendi nesciunt, commodi unde culpa sequi perspiciatis veritatis ratione aliquid quo ea dolorum assumenda at sapiente molestiae ad laboriosam accusantium.</p>
+      </div>
 </body>
 </html>

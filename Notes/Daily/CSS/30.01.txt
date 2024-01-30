@@ -1,0 +1,23 @@
+We have learned selections,pseudo classes,pseudo elements
+backgrounds,colors,texts
+
+Box-Model: it contains Padding+border+margin
+padding: space between content and border  => padding: 60px/* top.left.right.bootom=60px*/ or padding-top/padding-right/padding-bottom/padding-left or padding:tb lr or t r l b
+Border:extreme end of the Box  border: width type color
+margin:space between two boxes/ space contained by the box outside the border
+
+Box-sizing: by default you have content box
+by making it "border box" padding,border will be included in the box height and width
+
+display: none will remove from the DOM,visibility:none will just hide in the UI
+display:block/inline will make element as block or inline but inline elements cannot have height/width. To solve that you can give display:inline-block
+
+float:left/right will move the element to left /right side of the page, but it removed from the normal flow of page. to clear it sides we use 'clear' property
+
+units:
+px- pixels your screen having width*height some pixels
+%- you can use % also for difference percentages of parent
+em- emphasized text , it measures based on parent 1.5em means 1.5 times the parent size
+rem- root emphasized text, it measures based on root element 1rem is 16px
+vh and vw are viewport height and view port width which works like percentage of view port(what visible on screen)
+
