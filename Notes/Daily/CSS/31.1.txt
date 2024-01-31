@@ -1,0 +1,12 @@
+Positions:
+position define where you want to place the item in UI
+There are 5 position types
+1. default static, it will not have any impach with the top,left , right,bottom
+2.absolute: position:absolute will make element adjuts top,left,right ,bottom with respect to root element(body)
+3.Relative : position relative will make element adjusts top,left,right,bottom with respect to parent
+4.fixed:fixed will work with body like absolute but scrollling will not have any impact on fixed
+5.sticky: sticky will also work like fixed but relative to parent and scrolling will not having any effect after it reaches particular value
+
+z-index is used to overlay on another elements. the element with more z-index will win
+
+FlexBox:

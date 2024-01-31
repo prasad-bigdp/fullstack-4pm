@@ -1,0 +1,60 @@
+Revision of HTML Elements
+CSS-Introduction:
+1997 Cascading style sheets
+.css extension
+CSS is used for Styling and Layout of Web Pages
+CSS can be linked to HTML in 3 Ways
+
+1. Inline: Inside the line of HTML element ,as a attribute style will be written
+  eg: <p style="background-color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptatum </p>
+
+2. Internal: In the HTML code , you can write anywhere style as Element which takes the selectors and select the HTML elements and assign appropriate style
+(Note: at the end of Head is recommended for Better Performance)
+
+3.External: You can write same as internal but in an External file with .css extension and you can link it to HTML by
+
+<link rel="stylesheet" href="path"> at the head element
+Inline>Internal>External
+(ID>Classes>tagname)
+Alwasy you can overcome this priority by !important
+
+Basic Selectors:
+You can select an element using tagname
+eg:
+p{
+color:"blue"
+}
+you can select elements using classname with dot notation
+eg
+.classname{
+//properties
+
+}
+you can select an element using Id with hash notation
+#idname
+{
+//properties
+
+}
+Colors: In Web, Every color will have code called HexCode. you can use Hexcode or rgb or rgba(where a is alpha ranges from 0.0 to 1.0) or hsl(hue,saturation,lightness) or hsla or directname
+Background:
+background-image,background-color,background-size,background-position,background-repeat,background-blend-mode,linear gradient,radial gradient
+body{
+   /* background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-blend-mode:hard-light; */
+  /* background:linear-gradient(to right,blue,red,green,yellow);
+   */
+   background: radial-gradient(red,blue,red,blue,red,blue);
+   height: 100vh;
+}
+h1
+{
+     /* background-color:hsla(200, 15%, 35%,0.6) */
+}
+
+font-families: serif(traditional),sans-serif(web),monospace,roboto,fantasy
+
+
+
+
+
