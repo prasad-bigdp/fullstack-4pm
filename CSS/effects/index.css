@@ -1,0 +1,77 @@
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    color: black;
+    
+    border-radius: 100px;
+    padding: 50px;
+    animation-name: prasad;
+    animation-duration: 6s;
+    animation-timing-function: ease;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes prasad {
+    0%{
+        position: absolute;
+        top:0px;
+        left:0px;
+    }
+    20%{
+           position: absolute;
+        background-color: green;
+        top: 500px;
+        left: 200px;
+        height: 50px;
+        width: 50px;
+       
+    }
+    40%
+    {
+       position: absolute;
+        background-color: orange;
+        top: 300px;
+        left: 250px;
+        height: 25px;
+        width: 25px;
+    }
+    60%{
+       position: absolute;
+        background-color: yellow;
+        top: 500px;
+        left: 500px;
+        height: 10px;
+        width: 10px;
+    }
+    80%{
+        position: absolute;
+        background-color:blueviolet;
+        top: 100px;
+        left: 500px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+   100%
+    {
+        position: absolute;
+        background-color: red;
+        top: 100px;
+        left: 300px;
+    }
+    
+}
+
+.image:hover{
+filter: grayscale();
+transition: all 5s ease;
+}
+
+/* .main:hover{
+background-color: red;
+color: green;
+height: 100px;
+scale: 1.5;
+transition:all 5s ease;
+} */
