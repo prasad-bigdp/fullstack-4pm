@@ -16,7 +16,11 @@ Learning:
 ---------
 freecodecamp
 GitHub
-
+frontend Mentor
+frontend Practise
+codewell
+devchallenges.io
+froggyflexbox
 
 communities:
 -------------

@@ -1,0 +1,132 @@
+:root
+{
+    --primary:#000000;
+    --secondary:#4f4f57;
+}
+body{
+    background-color: var(--primary);
+    color: var(--secondary);
+    max-width: 1200px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+section
+{
+    padding: 50px 10px;
+}
+/* header starts here*/
+header
+{
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-between; 
+}
+header h2{
+    color: white;
+}
+.hamburger
+{
+    display: none;
+}
+#menu
+{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#menu li
+{
+ list-style-type: none;
+  font-size: 20px;
+}
+button{
+    background-color: yellow;
+    color: var(--primary);
+    padding: 20px;
+    text-align: center;
+}
+/* header ends here*/
+/* banner starts here */
+#banner{
+ max-width: 60%;
+}
+#banner .heading
+{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+/* banner ends here */
+/* logos starts here*/
+#logos{
+    display: flex;
+    justify-content: space-between;
+}
+/* logos ends here */
+/* posts logic starts here */
+#posts
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 50px;
+}
+.post h2
+{
+    color: white;
+}
+/* posts logic ends here*/
+/* about css starts*/
+#about
+{
+   width: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 30px;
+   background-color: #2e3038;
+   max-width: 1400px;
+}
+.left h2
+{
+    color: white;
+    font-size: 36px;
+}
+/*about css ends*/
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+       background-color: #2e3038;
+
+}
+/* media queries*/
+/*tablet vieew*/
+@media (min-width:481px) and (max-width:768px) {
+   body {
+    padding: 10px 30px;
+   }
+    .hamburger{
+    display: block;
+   }
+   header div:nth-child(3),header div:nth-child(4){
+    display: none;
+   }
+   #banner{
+    max-width: 100%;
+   }
+   #logos
+   {
+    flex-wrap: wrap;
+   }
+   #logos img{
+    height: 100%;
+    width: 100%;
+   }
+    
+}
+/*mobile view*/
+@media (min-width:481px) and (max-width:768px) {
+    
+    
+}
