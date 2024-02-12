@@ -61,7 +61,7 @@ header ul
     gap: 25px;
 }
 header ul li a:has(#submenu)::after{
-    content:"x"
+    content:"\2193"
 }
 header ul li a:has(#submenu):hover::after{
     content:"y"
@@ -118,9 +118,17 @@ section
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
- 
+    place-items: center center;
     gap: 20px;
 }
+
+#project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .project{
     display: flex;
     flex-direction: column;
