@@ -1,0 +1,93 @@
+what is Javascript ?
+js is client side programming language which goes with JIT(just-in-Time) compiler , works in Browser
+
+Every Browser will have JS Engine
+Google Chrome-V8
+
+how do you print something in console?
+console.log("something")
+
+what are the ways of attching script in HTML?
+1.Internal .... between script tag
+2.external
+
+write the steps/sample code to include internal and external js into html
+
+ <h1>Hello world</h1>
+    <script>
+        console.log("Bye world")
+    </script>
+    <script src="./script.js"></script>
+Note: it is recommended to include js script files at the end of body similarly .css at the end of head.
+
+How do you store values in JS?
+we use variables/identifiers. we can name them anything but no space, no extra symbole except _ or name should not start with number
+
+How do you declare a variables?
+There are three ways of how to declare a variable.
+1. var    2. let   3. const
+
+what is the difference b/w them?
+var is used to popularly used before 2015, then Es6 introduced us let and const
+
+Default methods in JS Window:
+1.alert()
+2.prompt()
+3.confirm()
+
+
+what are the Datatypes in JS?
+Datatypes represent type of the data.
+There are primarily Two Types. 1. primitive 2. non-primitve(Reference)
+1.primitve Data Types,
+There are majorily 5 primitve data Types
+ i. number
+ ii.string
+ iii.boolean
+ iv.undefined
+ v.null
+ ES6 also introduced symbol and BigInt
+ Note: To know type of data , use 'typeof' operator
+
+ Explain number methods:
+var a = 23;
+var c = 25252552525;
+console.log(a, typeof a);
+
+//Default Number Methods
+var b=23.689
+console.log(b.toFixed(1))
+console.log(b.toPrecision(3))
+console.log(c.toString(16))
+var d = 16;
+//23 number
+//numbers also have default methods called Math methods.
+console.log(Math.sqrt(d), Math.cbrt(d), Math.abs(-10), Math.pow(d, 2), d * d, d ** 2, Math.max(a, b), Math.min(a, b));
+
+var k = -3.4;
+console.log(Math.round(k), Math.floor(k), Math.ceil(k))
+//get a random value,Math.random will give random values between 0.0 to 1.0
+console.log(Math.round(Math.random()*10000))
+
+Task1:
+ Take 2 inputs and print its max,min as integers only and generate 6 digit OTP and print them
+
+ // var a= Number(prompt("enter a value));
+ // var a= Number(prompt("enter a value));
+ Math.round(Math.min(a,b)),Math.round(Math.max(a,b)),Math.round(Math.random()*1000000)
+
+ Pro Tip:To convert a string into number, you can use unary operator + before the value
+
+
+
+
+
+
+
+
+
+
+
+
+
+

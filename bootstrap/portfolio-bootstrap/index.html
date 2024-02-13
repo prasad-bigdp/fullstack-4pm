@@ -14,95 +14,107 @@
         <Header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid  bg-black text-white d-md-flex  align-items-center">
-                    <a class="navbar-brand" href="#"><img class="" src="https://i.ytimg.com/vi/V55BfPM0YHM/maxresdefault.jpg" alt="" height="100" width="200"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Contact</a>
-                            </li>
-                          
-                        </ul>
+                    <a class="navbar-brand" href="#"><img class=""
+                            src="https://i.ytimg.com/vi/V55BfPM0YHM/maxresdefault.jpg" alt="" height="100"
+                            width="200"></a>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-self: end;">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
 
+                            </ul>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Login
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade text-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
+
                 </div>
             </nav>
         </Header>
-
-        <!-- <div class="bg-black text-white border border-2 border-danger ps-lg-4 pe-lg-3 pt-lg-3 pb-lg-5 rounded rounded-5 row">
-           
-            <!-- <p class="col col-sm-10 col-md-6 col-lg-4 col-xl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eveniet voluptatum molestiae quibusdam corporis reiciendis labore laborum omnis earum molestias architecto, vel rem tempora velit totam iste hic sit? Fuga quaerat perspiciatis illum velit? Dolorum corrupti eum ab aspernatur hic eos qui minima recusandae, voluptates quos, ex explicabo voluptatum ratione!</p>
-            <p class="col col-sm-2 col-md-6 col-lg-8 col-xl-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eveniet voluptatum molestiae quibusdam corporis
-                reiciendis labore laborum omnis earum molestias architecto, vel rem tempora velit totam iste hic sit? Fuga quaerat
-                perspiciatis illum velit? Dolorum corrupti eum ab aspernatur hic eos qui minima recusandae, voluptates quos, ex
-                explicabo voluptatum ratione!</p>
-        </div> --> -->
-        
-        <div class="accordion" id="accordionExample" style="--bs-border-radius:35px">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button bg-black text-white position-static text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne">
-                        kfdxgvkjmcxbvkjxcbnvmx,ncvm
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                        within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+       <section id="banner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Assets/Images/Welcoe.png" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Assets/Images/banner2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Assets/Images/banner3.jpeg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                        within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                        within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+       </section>
+       <h2 class="heading">About</h2>
+       <section id="about" class="ms-5 ml-5">
+          <div class="conatainer">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                 <p class="text-black text-justify text-wrap">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi aperiam, ducimus inventore nisi laudantium amet, autem, earum sit deserunt sequi fuga ex quo molestias voluptatibus repellat consequuntur praesentium eligendi odit ipsa fugit debitis! Ut officiis nemo culpa eum aut enim neque perferendis quas velit modi, aspernatur quod perspiciatis incidunt maxime laudantium qui excepturi corporis ducimus blanditiis natus ea vel magnam? Ullam error, ab numquam iusto nemo voluptatibus asperiores veniam et atque quisquam quo obcaecati? Necessitatibus beatae quo consectetur, nihil unde ex doloremque. Voluptatum minus est, sunt animi exercitationem, officiis modi amet, quos incidunt inventore vitae! Nemo magnam culpa porro exercitationem accusamus qui ipsum ipsa facere, praesentium tenetur quam doloribus inventore vel soluta, quo officia libero, dicta nulla ab quidem dolor. Non fuga consectetur reprehenderit repudiandae ipsum itaque voluptates et doloremque eius, quidem magnam obcaecati quos dicta maxime suscipit nam iure sequi reiciendis quibusdam? Adipisci quasi reprehenderit iste neque unde facere perspiciatis ducimus qui maiores doloribus quis, at cupiditate dignissimos laudantium harum commodi error assumenda obcaecati deleniti, voluptate itaque alias fuga pariatur! At accusantium excepturi autem fugiat laborum vero, repudiandae possimus inventore. Dicta repellendus ipsum inventore, autem aperiam vel cupiditate sed velit amet doloribus rem, possimus officia eveniet quam hic quia.
+                 </p>
+                 <div>
+                   <button class=" btn btn-outline-primary">Learn More</button>
+                   <button class="btn btn-outline-success">Contact US</button>
+                 </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="./Assets/Images/anime.jpg" alt="anime">
+                </div>
+            </div>
+          </div>
+       </section>
+       <section id="form">
         
+       </section>
+
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>

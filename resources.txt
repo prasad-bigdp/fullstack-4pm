@@ -10,7 +10,7 @@ Icons8
 
 Images:
 -------
-freepik,unsplash
+freepik,unsplash,https://whirl.netlify.app/,Lottiefiles
 
 Learning:
 ---------
@@ -25,3 +25,5 @@ froggyflexbox
 communities:
 -------------
 hashnode,dev.to,codepen.io
+
+others:
