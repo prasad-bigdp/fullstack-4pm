@@ -7,7 +7,7 @@ Google Chrome-V8
 how do you print something in console?
 console.log("something")
 
-what are the ways of attching script in HTML?
+what are the ways of attaching script in HTML?
 1.Internal .... between script tag
 2.external
 
@@ -28,7 +28,7 @@ There are three ways of how to declare a variable.
 1. var    2. let   3. const
 
 what is the difference b/w them?
-var is used to popularly used before 2015, then Es6 introduced us let and const
+var is used to popularly used before 2015, then Es6 introduced us let and const. The main differences will be discussed further
 
 Default methods in JS Window:
 1.alert()

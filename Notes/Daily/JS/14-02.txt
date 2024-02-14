@@ -1,0 +1,45 @@
+Strings:
+Strings the array of characters(its like english character or word or even may be a sentense or paragraph).
+There is no difference between strings in single or double quotes in JS
+
+How many ways you can represent strings?
+Three ways, single or double quotations or backticks.
+
+The representation of string and values in back ticks called as template literal. it is a modern approach started in ES6(ES2015). The combining of strings with values also called string interpolation.
+The values were represented with ${value} in between backticks.
+
+adding of two strings called string concatenation;
+
+
+Javascript comments:
+single line --- //
+multi line - /* ....................*/ 
+
+//string methods:
+
+//String methods
+console.log(str.length)// length return no.of characters including spaces
+console.log(str.split(''))//split is used to split the string based on given character.if no charcter given it divides each character. it always returns an array
+console.log(str.indexOf('a'), str.lastIndexOf('a'))// indexOf and lastIndeOf returns the index value of first and last ocuurences of that character in given string respectively
+
+console.log(str.charAt(2))
+//reverse a string can be acheived by two string methods and one array method
+console.log(str.split('').reverse().join(''));
+console.log(str.replaceAll(' ', 'k'))//replace will take two values , first one will be replaced by second , but only one time, to replace all values, use replaceAll
+var str2= "kamalhasan"
+console.log(str2.toUpperCase(), str.toLowerCase(), str.trim(), str.concat("hsghsg"), str.endsWith('pr'), str2.substring(3, 4),
+    str2.slice())
+    console.log(str2)
+// strings in JS are immutable--> you cannot change them
+str2 = str2 + "x"
+str2="raj"
+console.log(str2)
+
+//Boolean
+boolean is a data type to store true or false, by default true is 1 and false is 0
+//undefined means accidental abscence of value. it may fulfilled in future
+//null means desired absence of value and it won't be replaced in future. typeof null results object
+
+// operators
+//k=a + b ==> a and b are called operands, + is called operator, a+b is called operation/expression;
+Arithematic operators: +, - , * ,/ , %, **
