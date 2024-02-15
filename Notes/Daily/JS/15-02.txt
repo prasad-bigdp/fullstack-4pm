@@ -1,0 +1,64 @@
+//operators
+k= a + b ==> a and b are called operands, + is called operator, a+b is called operation/expression;
+operators are three types
+1. Unary Operators: these operators are used for only one operand
+Eg: unary +, unary -  ++(increment), --(decrement)
+Increment and decrement Operators
+Increment operator is used to increase the value by 1 and decrement operator is used to decrease the value by 1
+// there are two way increment or decrement happens, one is pre increment another is post increment
+//++a is pre increment, a++ is post--> pre increment first update the value and returns, post increment first returns the value and updates.
+//pre and post decrement also works similar but they decrease the value by 1
+2. Binary Operators: Binary Operators need atleast two operands
+
+  Arithematic operators: +, - , * ,/ , %, **
+  Relational Operators: Relational operators are used to compare the values and return boolean value
+  > , < , >=,<=, ==,===,!=,!==
+  what is the difference b/w == and ===
+  == compares only value , === compares data type and value
+  Logical Operator:
+  these operator are used to combined statements/conditions
+  &&(logical AND), ||(Logical OR), !(Logical NOT)
+  " ravi is  good guy or he loves programming"
+  ((5>2)&&(5<10)) => T && T==>T
+   ((5<2)||(5<10)) => F || T==> T
+   !(5>2) ==>!T= false
+   Assignment or shorthand operators:
+
+   3. Ternary Operator:
+   It needs atleast 3 operands 
+   value= condition ? exp1 :exp2 ;
+   special operators: typeof is a operator used to check the data types
+   nullish coelsion operator(??)
+
+
+###################################################################
+FUNCTIONS
+###################################################################
+
+Function is used to do a particular task. these are used for repetitive purposes.
+
+syntax: 
+function function-name(parameters--optional)
+{
+
+}
+//block means open brace to close brace
+eg:function something ()
+{
+    console.log("something")
+}
+something()
+Task: write a function sum--> take two values inside sum and alert their sum and call the function
+task2: write functions sum,sub,mul,div for respective operations with two parameters, return their values and print them
+task3: write a function which accepts a string and a number and returns the character of that number in string
+Input:"My name is Prasad",4
+Output:n
+Input2:"PRASAD",3
+Output:A
+task4: write a function to accept a number as radius and return area of circle.(HInt: area of circle is pi r square)
+
+
+
+
+
+
