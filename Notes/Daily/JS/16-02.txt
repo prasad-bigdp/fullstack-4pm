@@ -1,0 +1,34 @@
+Function : function is a small reusable code. it makes code easy to understand and maintain
+Each function have function declaration,function definition,function call
+
+functions may take input and may return Output
+
+syntax: 
+
+function function-name(inputs/parameters like a) //declaration
+{
+    //function body  ===>definition
+}
+
+function call--> function-name(arguments)
+
+In JS function is called as First class Citizen of JS
+
+IIFE(Immediate Invoke Function Expression)
+
+one function inside another function-->Nested Functions
+
+
+
+can a function receive another fn in parameter?
+yes, the one in parameter is callback fn and the one which takes parameter is Higher order function
+function z()
+{
+    oconsole.log("hi")
+}
+function x(y){
+    y()
+}
+x(z)
+functions can also return functions, the returned function is called callback and the one it returns is Higher Order
+
