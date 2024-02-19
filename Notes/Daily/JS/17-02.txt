@@ -1,0 +1,46 @@
+Arrays:
+Arrays are used to collect different Items
+It is a non- primitive data type
+what is the main difference between primitive and non-primitive data types?
+primitive data types- immutable and compares value
+non-primitive data type- mutable and compares reference
+
+Array Methods:
+length- length will return number of Items
+indexOf- return first index of the value
+lastIndexOf- return the last Index Of the value
+includes- return true if value exists in the Array
+push- used to push the values into the array at end of the array
+unshift - used to push the values into the array at the start of the array
+pop- to remove the last element of array
+shift- to remove first element of the array
+splice(startElement,deleteCount,addingElement)- use it to delete /add anywhere in array
+copywithin- used to copy the elements within the array
+find- it will take callback function and return the first value which matches the specified condition in callback function
+findIndex- it will take callback function and return the first value Index which matches the specified condition in callback function
+every- it will take callback function and return the true if all array values matches the specified condition in callback function
+forEach- it will take callback function and it will return undefined. it is used to check the element in the array and perform some actions.
+map - it will take a callback function and it will return new array which goes through the logic mentioned in callback function but it return all values.
+filter- it works exactly like map which is used to return only true cases
+reduce()- it takes a callback fn with two values(previous,present) and it also takes a value for present and it returns based on logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
