@@ -24,6 +24,11 @@ map - it will take a callback function and it will return new array which goes t
 filter- it works exactly like map which is used to return only true cases
 reduce()- it takes a callback fn with two values(previous,present) and it also takes a value for present and it returns based on logic
 
+Objects:
+objects are used to define the values with key, value pair within {}
+
+you can define normal data or even functions
+
 
 
 

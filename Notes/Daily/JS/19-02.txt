@@ -1,0 +1,29 @@
+
+Differences Between var , let and const
+Var:
+var is a function scoped( where ever u declare in a function,it can be used through out function)
+var can redeclare values
+var can reassaign values
+var can perform Hoisting(accessing values before initlaization, default value will be undefined)
+Let:
+let is a block scoped variable(where ever u declare, works only in that block(between the braces))
+let cannot redeclare but can reassaign
+let cannot allow u to access values before initlaization but values will be taken and stored in temporal Dead Zone(Script object)
+Const:
+const is also a block scoped variable(where ever u declare, works only in that block(between the braces))
+const cannot redeclare and cannot reassaign
+const cannot allow u to access values before initlaization but values will be taken and stored in temporal Dead Zone(Script object)
+
+
+To debug you code use breakpoints or debugger keyword(it works only if developer tools onened)
+
+
+Control Statements:
+control statements are used to check the condition and maintain the flow of application based on condition
+
+//simple If
+
+
+
+
+
