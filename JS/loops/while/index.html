@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let arr= [2,3,5,7,9,12]
+        let i=0;
+        while(i<=5)
+        {
+            console.log(arr[i]);
+            i++;
+        }
+  //using while loops print even numbers from 0 to 20
+  let num = 0;
+    while (num <= 20)
+    {
+       
+            console.log(num);
+        
+        num+=2;
+    }
+    // using while check whether each word in the gievn string starts with vowel or not
+    //input: abhi is educated.--output-success
+    //input: prasad is good -- output- failed
+   let str= " is educated prasad"
+   let words= str.split(' ')
+   let i1=0;let count=0;
+   while(i1<words.length)
+   {
+     if(['a','e','i','o','u'].includes(words[i1].charAt(0)))
+     {
+      count++;
+     }
+     else
+     {
+        console.log(`failed.only ${count} words are matching`)
+     }
+     i1++;
+   }
+   if(count==words.length)console.log("success")
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Loops:
+loops are iterators which repeats a set/block of code again and again, each repeatation is called iteration
+There are two type of loops
+Entry control loops and entry control loops
+Entry control loops:
+popular js entry control loops are while and for
+each loops needs three values initialization,condition,updation
+
+//while

@@ -22,6 +22,58 @@ Control Statements:
 control statements are used to check the condition and maintain the flow of application based on condition
 
 //simple If
+it means only the case of if is mentioned
+if(condition)
+{
+    //statements
+}
+//if-else
+if(condition){
+    statements;
+}
+else-->it will run only if the above condition not matched
+{
+    statements
+}
+if elseif==> if else ladder
+if(condition1)
+{
+    //statements
+}
+else if (condition2)
+{
+    //statements
+}
+else if(condition3)
+{
+    //statements
+}
+else{
+
+}
+//nested if
+if(condition)
+{
+    if(condition2)
+    {
+
+    }
+}
+
+//switch case
+switch case used for multiple options with each case represent possible option value, the termination of case id done by 'break keyword, else it will fall through the next case
+switch(expression)
+{
+    case option1://statements;break;
+     case option2://statements;break;
+      case option3://statements;break;
+      default://statements
+}
+default execeuted only if none of the above cases matches
+
+
+
+
 
 
 

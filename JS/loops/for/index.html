@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //print values from 20 to 1 in reverse order
+        for(let i=20;i>=1;i--)
+        {
+            console.log(i)
+        }
+       
+        //print only even numbers in the array and give me the count of even and odd numbers
+        let arr1 = [2, 3, 48, 4, 5, 2, 8, 7, 4, 7, 10]
+            let count = 0
+            for (let i = 0; i < arr1.length; i++)
+            {
+                if (arr1[i] % 2 == 0)
+                {
+                    console.log(arr1[i])
+                    count++
+                }
+            }
+            console.log("count is " + count);
+            console.log("odd numbers are "+ arr1.length-count)
+
+            //for variations
+            //for..of,for..in and forEach
+    let arr = [2, 5, 6, 7]
+    for (let i = 0; i < arr.length; i++)
+    {
+        console.log(arr[i])
+    }
+    //for..of
+    for(let i of arr)
+    {
+        console.log(i)
+    }
+    //for..in
+    for(let i in arr)
+    {
+        console.log(arr[i])
+    }
+    arr.forEach(function(i){
+    console.log(i)
+    })
+
+
+
+
+
+
+
+
+
+
+
+    
+    </script>
+</body>
+</html>
