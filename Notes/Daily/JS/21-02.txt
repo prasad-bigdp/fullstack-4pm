@@ -1,0 +1,17 @@
+DOM- Document Object Model
+your whole html and css will be copied into one object by browser. this document object is used to manipulate actual html,css using JS
+DOM Manipulation: using certain commands , js can access, update or create the DOM elements
+
+1. Accessing DOM Elements:
+you can DOM elements by following 5 commands
+document.getElementById==> it is used to slect an element from DOm using ID ,it will give unique element
+document.getElementsByClassName==> it is used to select an element from DOM using className. it gives an array called HTMLcollection
+document.getElementsByTagName=> it is used to select an element from the DOM using tagnames but it returns an array
+document.querySelector() ==> it is used to select the first element which matches the css query
+document.querySelectorAll()=> it is used to select all elements which matchees the css query
+
+Manipulate:
+we have basic manipulations
+textContent=> used to access the text of element
+innerText
+innerHTML

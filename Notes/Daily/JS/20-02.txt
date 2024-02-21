@@ -6,4 +6,54 @@ Entry control loops:
 popular js entry control loops are while and for
 each loops needs three values initialization,condition,updation
 
-//while
+//while loops
+initialization;
+while(condition)
+{
+    //statements
+    updation;
+}
+the while loop will iterate until condition becomes false.
+Eg: //use while loop to print elements of the following array
+let arr=[3,4,5,6,9]
+let i=0;
+while(i<arr.length)
+{
+    console.log(arr[i])
+    i++;
+}
+//for loop
+for will take initialization,condition and updation in single line
+for(initialization;consition;updation){
+    //statements
+}
+for(let i=0;i<arr.length;i++)
+{
+    console.log(arr[i])
+}
+//There are two variations of for in js
+1.for..of which is used to iterate through the array
+/* arr=["raj","xyz","avc"]
+for(let v of arr)
+{
+    console.log(v)
+}
+here v comes as values in array
+2. it ususally uses for objects but in case of arrays here each value represent index
+for(let v in arr)
+{
+  console.log(v)
+}
+here v is index.
+
+Exit control loop:
+do-while will check the condition  at the end of the loop
+initialize;
+do{
+    //statements
+}while(condition);
+
+
+
+
+
