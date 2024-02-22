@@ -13,5 +13,7 @@ document.querySelectorAll()=> it is used to select all elements which matchees t
 Manipulate:
 we have basic manipulations
 textContent=> used to access the text of element
-innerText
+innerText => used to access the text of element but it respects CSS
 innerHTML
+
+you can even add a class or remove a class usong DOMyou can even add styles

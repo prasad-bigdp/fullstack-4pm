@@ -1,0 +1,21 @@
+body
+{
+    z-index:1
+}
+#modal
+{
+    padding: 50px;
+    background-color: aqua;
+    color: black;
+     display: none;
+    border: 2px solid black;
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left:40%;
+}
+.dark
+{
+    background-color: black;
+    color: white;
+}
