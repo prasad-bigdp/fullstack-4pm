@@ -2,12 +2,15 @@ body
 {
     z-index:1
 }
+.d-none{
+       display: none;
+}
 #modal
 {
     padding: 50px;
     background-color: aqua;
     color: black;
-     display: none;
+  
     border: 2px solid black;
     z-index: 2;
     position: absolute;

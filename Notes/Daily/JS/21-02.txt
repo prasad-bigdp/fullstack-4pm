@@ -14,6 +14,10 @@ Manipulate:
 we have basic manipulations
 textContent=> used to access the text of element
 innerText => used to access the text of element but it respects CSS
-innerHTML
+innerHTML=> access HTML
 
-you can even add a class or remove a class usong DOMyou can even add styles
+you can even add a class or remove a class using DOM.
+document.getElementById('id').classList.add('classname') will add specific classname to the element with specific id. you can use add,remove,toggle
+
+you can even add styles
+document.getElementById('id').style.property-name="value"

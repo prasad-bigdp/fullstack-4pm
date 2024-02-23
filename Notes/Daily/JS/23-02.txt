@@ -1,0 +1,7 @@
+DOM Manipulation can do 3 things
+1. selection
+2. manipulations
+3. creation
+To create an element createElement('element-name')
+To append as child use 'appendChild'
+To append multiple elements as a child use 'append'
