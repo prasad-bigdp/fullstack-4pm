@@ -1,0 +1,9 @@
+Asynchronous JS:
+Javascript is a single threaded synchronous language
+Asynchronous means which will take some time
+
+we have so many default asynchronous functions
+like fetch(),timers or async-await etc..,
+Timers: timer is a web api which have default methods like setTimeout(),setInterval().
+setTimeout --> it will run only once after specific time
+setInterval()--> it will run for even span of specific time

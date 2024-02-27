@@ -1,0 +1,21 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: antiquewhite;
+}
+#modal
+{
+    background-color: aqua;
+    color: white;
+    position: absolute;
+    padding: 50px;
+    top: 40%;
+   height:40vh;
+   overflow: scroll;
+    width: 50vw;
+    display: none;
+    left: 40%;
+}

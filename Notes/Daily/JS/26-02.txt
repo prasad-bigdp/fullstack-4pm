@@ -1,0 +1,21 @@
+Events:
+Each event is a ction done by user or system, it triggers a particular function for a purpose. one event may trigger multiple functions.Events are declared in two ways,
+1. Event handlers:
+you will declare the events in HTML and define its action in JS
+sometimes events may way and get trigger,for that we use event listners
+2. Event Listners: we will declare and define event in JS.
+you can select the element in js and addEventListner to it.
+There are mainly three types of events:
+1. window events: eg:onload,onDOMContentloaded.on abort etc..,
+2. mouseEvents: eg:onclick,ondblclick,onmouseover,onmouseout etc..,
+3.keyboard events:eg:keyup,keypress,keydown
+
+How events are propograted?
+
+capturing(top down approach) and bubbling(bottom up approach)
+
+create the counter app using addEventListner
+
+
+Event Delegation: it is design pattern which suggests calling parent element once instead of calling each element
+
