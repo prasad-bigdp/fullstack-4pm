@@ -7,3 +7,7 @@ like fetch(),timers or async-await etc..,
 Timers: timer is a web api which have default methods like setTimeout(),setInterval().
 setTimeout --> it will run only once after specific time
 setInterval()--> it will run for even span of specific time
+
+How Asynchronous function run. JS is synchronous and single threaded language. all async functions are pushed into task queue. then event loop pushes the task queue elements into callstack when call stack is empty.
+
+API: application programming interface

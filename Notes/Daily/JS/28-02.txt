@@ -1,0 +1,30 @@
+API: API's are used to bring the data or send the data or update the data;
+In olden times API requests used to be done by using XmlHttpRequest.
+Modern Methods are fetch(a default method in browser) and axios(3rd party application to send or receive data requests).
+API are two types:
+1. REST API-->state transmission-->  data gets updated with its state-->data is in the format of JSON
+JSON(Javascript object notation)---> stringified version ob objects/data
+2. graphQL
+
+
+
+How Fetch Works?
+fetch(url), it will return a promise
+PROMISE: a promise is an object which describes an eventual completion of async operation.
+we can resolve promises by .then and
+we can resolve errors in promises by catch
+
+but catch will work only if then satement is above it
+
+
+
+
+
+
+
+
+
+
+
+
+
