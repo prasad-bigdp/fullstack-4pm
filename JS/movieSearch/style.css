@@ -1,0 +1,46 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+body{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 2rem;
+    width:15rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+#main
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.movie
+{
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+.movie img
+{
+    height:150px;
+    width: 200px;
+}
+@media (max-width:768px)
+{
+    #main{
+        grid-template-columns: repeat(2,1fr);
+    }
+ 
+}

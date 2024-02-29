@@ -38,3 +38,13 @@ h1 {
         grid-template-columns: repeat(1,1fr);
     }
 }
+.modal
+{
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	padding: 50px;
+	border-radius: 20px;
+	background-color: aliceblue;
+}
