@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.source{
+    height:150px;
+    width: 300px;
+    box-shadow: 5px 5px 3px black;
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+@media(max-width:768px)
+{
+    #main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+.source{
+    width:100%;
+}
+}
