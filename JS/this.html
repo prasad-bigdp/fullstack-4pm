@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+    <script>
+        //scope-range
+        name="prasad"//global value-scope
+        // function display()
+        // {   console.log(this)
+        //     name="vani" //local
+        //     console.log(name)
+        //     function display2()
+        //     {
+        //       a=2
+        //     }
+        //     display2()
+        //     console.log(a)
+        // }
+        // window.display()
+        let obj={
+            name:"raj",
+            email:"a@a.com",
+            age:25,
+           mine:()=>console.log(this)
+        }
+        obj.mine()
+         function printt(a,b)
+            {
+                console.log(this)
+                console.log(this.name,a,b)
+            }
+        const printt2=(a,b)=>{
+            console.log(this)
+            console.log(this.name, a, b)
+        }
+        printt2.call(obj, 2, 3)
+       // call,apply,bind
+       printt.call(obj,2,3)
+       printt.apply(obj,[2,3])
+       let x= printt.bind(obj,2,3)
+       x()
+       x()
+     //ES6-2015
+     //arrow functions
+     function a(z,q)
+     {
+        console.log("hi"+z+q)
+     }//for single statement arrow functions by default return , that's in callback fn we prefer arrow function
+     const b=(z,q)=>console.log("hi"+z+q)
+     
+     a(2,3);b(2,3);
+
+    function fetchData()
+    {
+        fetch('https://fakestoreapi.com/products')
+        .then(function(res){return res.json()})
+        .then(function(data){console.log(data)})
+    }
+    const fetchData2=()=>{
+        fetch('https://fakestoreapi.com/products')
+         .then((res)=> res.json() )
+.then((data)=> console.log(data) )
+    }
+    fetchData2()
+
+
+
+
+
+        //this means current calling object
+       document.getElementById('btn').addEventListener('click',display)
+       function display()
+       {
+        console.log(this)
+       }
+       //rest of parameters denoted by ...
+     function add(a,b,e,f,...c){
+        const arr=[a,...c,b]
+        const arr2=[...c,5,6]
+        consle.log(...c)
+        console.log(arr)
+        console.log(a+b)
+        console.log(c.length)
+     }
+     add(2,3,5,6,8,7,9,1,4)
+
+    </script>
+    
+</body>
+</html>
