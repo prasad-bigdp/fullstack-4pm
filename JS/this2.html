@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click</button>
+    <script>
+        let obj={
+
+            name:"prasad",
+            age:20,
+            fun:function(){
+                console.log(this)
+            }
+        }
+        console.log(obj.age)//lexical scope
+        console.log(obj.fun());
+        function fun2()
+        {
+            console.log(this)
+        }
+        const fun3=()=>{
+            console.log(this)
+        }
+        document.getElementById('btn').addEventListener('click',fun3)
+        //OOP-> object oriented programming. 
+        //create a class student which takes rno,name and marks . i want one function which checks marks >35 or not and print particular name of student pass or fail
+        
+        class Students{
+            rno;name;marks;
+            static rank=5;
+            constructor(rno,name,marks)
+            {
+               this.rno=rno;
+               this.name=name;
+               this.marks=marks
+            }//getter and setters
+             get mark()
+             {
+                return this.marks
+             }
+             set mark(v)
+             {
+                this.marks=v;
+             }
+            check()
+            {
+                if(this.marks>35) console.log(this.name+" is Passed")
+                else console.log(this.name + " is failed");  
+            }
+        }
+        class Monitors extends Students{
+            priority;
+             constructor(r,n,m,pr)
+             {
+                super(r,n,m)
+                this.priority=pr
+             }
+        }
+       
+        let s1= new Monitors(1,"raj","k",6)
+         
+         s1.mark=28
+         console.log(s1.mark)
+        s1.check();
+        let s2= new Students(2,"sghjs","2552")
+        s2.name="shekhar"
+        console.log(s2.name)
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        class Man{
+          name="prasad";
+          age=0;
+          constructor(n,a)
+          {
+           this.name= n;
+           this.age=a;
+          }
+          sleep()
+          {
+            console.log(this.name+" is sleeping")
+          }
+          display()
+          {
+            console.log("my name is "+this.name+". my age is "+this.age)
+          }
+        }
+        let obj2= new Man("abhi",25);
+        obj2.display();
+
+        console.log(typeof Man)
+    </script>
+</body>
+</html>
