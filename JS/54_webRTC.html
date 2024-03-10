@@ -23,7 +23,6 @@
 
        try{
              local=await navigator.mediaDevices.getUserMedia({video:true,audio:true});
-             console.log(local)
              lv.srcObject= local;
 
        }
@@ -32,8 +31,9 @@
        }
 
    }
-   function stopCall(){
-                      lv.srcObject= null;
+   async function stopCall(){
+                      local = await navigator.mediaDevices.getUserMedia({ video: false, audio: true });
+                      lv.srcObject=local;
 
    }
    </script>
