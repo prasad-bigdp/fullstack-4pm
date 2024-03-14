@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">Product id : <p id="id"></p></div>
+    <script>
+       document.body.addEventListener('DOMContentLoaded',(()=>{
+
+       }))
+       console.log(new URLSearchParams(window.location.search).keys((a)=>console.log(a.value)))
+       const params= new URLSearchParams(document.location.href);
+       console.log(params.has('id'))
+        let id= params.get("id")
+        console.log(id)
+        document.getElementById(id).textContent=id
+    </script>
+</body>
+</html>
