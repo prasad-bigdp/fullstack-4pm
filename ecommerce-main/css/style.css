@@ -1,0 +1,9 @@
+.card-img-top
+{
+    height:250px;
+    width:300px;
+}
+.cart-icon i.bi-cart
+{
+    font-size: 30px;
+}
