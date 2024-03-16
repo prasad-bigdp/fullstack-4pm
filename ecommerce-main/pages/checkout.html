@@ -4,12 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <h1>Check Out</h1>
     <div>
+        <header style="position: sticky;top: 0px;z-index: 1000;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container text-white d-lg-flex justify-content-between">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./assets/amaazon.png" alt="Logo" height="50" width="150">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav" style="flex-basis: 0%;flex-grow: 0;">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">contact</a>
+                            </li>
+                        </ul>
+                        <div class="cart-icon">
+                            <button id="cart-icon" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#cartModal">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-cart cart-icon"></i>
+                                    <span class="badge bg-primary ml-0" id="cart-badge">0</span>
+                                </div>
+        
+                            </button>
+                        </div>
+                        <div class="cart-div">
+                            <p>Cart:<span id="cart-value"></span></p>
+                            <a href="./pages/checkout.html"><button class="btn btn-primary" id="checkout">Checkout</button></a>
+                        </div>
+                    </div>
+                </div>
+        
+            </nav>
+        </header>
         <h2>Cart-details</h2>
-        <pre id="cart-details"></pre>
+        <div id="cart-details"></div>
+        Total:<span class="total"></span>
+        <div class="checkout"><button class="btn btn-primary" id="checkout">checkout</button></div>
+
     </div>
     <script type="module" src="../js/checkout.js"></script>
 </body>
