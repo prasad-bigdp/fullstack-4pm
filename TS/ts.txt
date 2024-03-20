@@ -1,0 +1,28 @@
+First download and install node js.
+1. goto https://nodejs.org/en/download. download windows installer(LTS).
+2. install it ----> select node package manager.
+3. open cmd and check wherther installed properly or not.
+
+npm is node package manager . npm is used to install or uninstall any packages.yarn is an alternative for npm.
+every package installed by package manager is listed in package.json
+
+To install typescript:
+npm install -g typescript
+Official website: https://www.typescriptlang.org/
+
+Typescript: Typescript is open source programming language that adds static typing to JS.
+How it will add it? Typescript will have a transpiler which transpiles code from ts to js because browser only understand js.
+Transpiler vs compiler: Transpiler convert code form one programming language into another programming language. compiler will convert high level programming into low level programming.
+
+package.json is used for metadata of the project like project name,project details,dependencies,scripts.
+
+package-lock.json: it is a meta data about package.json. it contains in detail about all the packages installed in the project.
+
+Node modules: node modules is a folder where your dependencies will be installed.
+
+"tsc - init "  will produce tsconfig file.
+tsc means typescript compiler. tsconfig file contains set of rules that typescript compiler follows when it is converting ts into js.
+
+Typescript will check data types in two ways
+1. type annotation: we have to explicitly mention the data type
+2.type inference: based on initial value ts only guess the type
