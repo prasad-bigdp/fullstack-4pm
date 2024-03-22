@@ -64,5 +64,45 @@ console.log(`value of z is ${z}`);
 let ref1 = {
     name: "raj",
     email: "a@a.com",
-    password: "raj12345"
+    password: "raj12345",
 };
+let s1 = { name: "raj", age: 25, marks: 258, reward: "medal" };
+let login = { email: "a@a.com", password: "prfad" };
+let j = "dgj";
+/* never & void data type */
+/* object oriented programming*/
+/* abstraction,encapsulation,inheritance,polymorphism*/
+/* create a sample class with a constructor and a display function */
+/* class inherit another class-- extends
+ interface inherit another interface - extends
+ class inherit interface - implements*/
+class graduate {
+}
+class Employee extends graduate {
+    constructor(n, a, m) {
+        super();
+        this.name = n;
+        this.age = a;
+        this.marks = m;
+    }
+    display() {
+        console.log("values of name and age are" + this.name, this.age);
+    }
+}
+Employee.rank = 5;
+let obj = new Employee("raj", 25, 500);
+obj.age = 55;
+console.log(Employee.rank);
+obj.display();
+try {
+    function xyzz() {
+        throw "something";
+    }
+    xyzz();
+    function abc() {
+        console.log("hi");
+    }
+}
+catch (e) {
+    console.log(e);
+}

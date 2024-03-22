@@ -74,9 +74,73 @@ interface refForm{
 }
 let z = 25;
 console.log(`value of z is ${z}`)
-let ref1:refForm = {
-    name: "raj",
-   email:"a@a.com",
-    password:"raj12345"
+let ref1: refForm = {
+	name: "raj",
+	email: "a@a.com",
+	password: "raj12345",
 }
+/* create an interface for student with name,age,marks and create two objects of student values*/
+interface student{
+    name:string,age:number,marks:number
+}
+interface topper extends student{reward:string}
+let s1: topper = { name: "raj", age: 25, marks: 258, reward: "medal" };
+/* type alias*/
+type loginForm = { email: string, password: string }
+let login: loginForm = { email: "a@a.com", password: "prfad" }
+type xyz= number|string
+let j: xyz = "dgj";
+/* never & void data type */
+/* object oriented programming*/
+/* abstraction,encapsulation,inheritance,polymorphism*/
+/* create a sample class with a constructor and a display function */
+/* class inherit another class-- extends
+ interface inherit another interface - extends
+ class inherit interface - implements*/
+abstract class graduate{
+    certified!: boolean;
+ }
+class Employee extends graduate implements student {
+	name
+	age
+	marks
+	static rank: number = 5
+    constructor(n: string, a: number, m: number) {
+        super()
+		this.name = n
+		this.age = a
+		this.marks = m
+	}
+	display(): void {
+		console.log("values of name and age are" + this.name, this.age)
+	}
+}
+let obj = new Employee("raj", 25, 500)
+obj.age = 55;
+console.log(Employee.rank)
+
+obj.display()
+try {
+    function xyzz():never {
+    throw "something";
+}
+    xyzz() 
+    function abc():void {
+        console.log("hi")
+    }
+}
+catch(e){console.log(e)}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
